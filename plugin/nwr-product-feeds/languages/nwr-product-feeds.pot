@@ -1,0 +1,1705 @@
+# Copyright (C) 2026 Nowera
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Produktové feedy — Google & Meta 1.0.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"X-Domain: nwr-product-feeds\n"
+
+#: includes/Admin/Admin.php:41 includes/Admin/Admin.php:42 includes/Admin/Feed_List.php:21
+msgid "Produktové feedy"
+msgstr ""
+
+#: includes/Admin/Admin.php:50 includes/Admin/Admin.php:129 includes/Admin/Product_Panel.php:33
+msgid "Feedy"
+msgstr ""
+
+#: includes/Admin/Admin.php:71
+msgid "Hľadať kategóriu Google (názov alebo ID)…"
+msgstr ""
+
+#: includes/Admin/Admin.php:72
+msgid "Načítavam taxonómiu Google…"
+msgstr ""
+
+#: includes/Admin/Admin.php:73
+msgid "Nič sa nenašlo."
+msgstr ""
+
+#: includes/Admin/Admin.php:74
+msgid "Taxonómiu sa nepodarilo načítať."
+msgstr ""
+
+#: includes/Admin/Admin.php:75
+msgid "Skopírované"
+msgstr ""
+
+#: includes/Admin/Admin.php:76
+msgid "Naozaj?"
+msgstr ""
+
+#: includes/Admin/Admin.php:92
+msgid "Na túto stránku nemáš oprávnenie."
+msgstr ""
+
+#: includes/Admin/Admin.php:121
+msgid "Feed neexistuje"
+msgstr ""
+
+#: includes/Admin/Admin.php:121
+msgid "Späť na feedy"
+msgstr ""
+
+#: includes/Admin/Admin.php:130
+msgid "Nastavenia, export a log"
+msgstr ""
+
+#: includes/Admin/Admin.php:140
+msgid "Feed uložený."
+msgstr ""
+
+#: includes/Admin/Admin.php:141
+msgid "Feed uložený a generovanie naplánované. Beží na pozadí — stav sa obnoví sám."
+msgstr ""
+
+#: includes/Admin/Admin.php:142
+msgid "Feed vymazaný aj so súborom."
+msgstr ""
+
+#: includes/Admin/Admin.php:143
+msgid "Kópia vytvorená (vypnutá). Uprav ju a zapni."
+msgstr ""
+
+#: includes/Admin/Admin.php:144
+msgid "Generovanie naplánované. Beží na pozadí — stav sa obnoví sám."
+msgstr ""
+
+#: includes/Admin/Admin.php:145
+msgid "Feed sa práve generuje. Po dokončení sa spustí znova."
+msgstr ""
+
+#: includes/Admin/Admin.php:146
+msgid "Generovanie sa nepodarilo spustiť — pozri log."
+msgstr ""
+
+#: includes/Admin/Admin.php:147
+msgid "Generovanie zrušené."
+msgstr ""
+
+#: includes/Admin/Admin.php:148
+msgid "Podržaný súbor zverejnený."
+msgstr ""
+
+#: includes/Admin/Admin.php:149
+msgid "Podržaný súbor sa nepodarilo zverejniť — pozri log."
+msgstr ""
+
+#: includes/Admin/Admin.php:150
+msgid "Podržaný súbor zahodený."
+msgstr ""
+
+#: includes/Admin/Admin.php:151
+msgid "URL feedu sa zmenila. Nová URL platí po najbližšom generovaní — aktualizuj ju v Merchant Center / Commerce Manageri."
+msgstr ""
+
+#: includes/Admin/Admin.php:152
+msgid "Nastavenia uložené."
+msgstr ""
+
+#: includes/Admin/Admin.php:153
+msgid "Nastavenia importované."
+msgstr ""
+
+#: includes/Admin/Admin.php:154
+msgid "Import zlyhal: súbor nie je platný export tohto pluginu."
+msgstr ""
+
+#: includes/Admin/Admin.php:155
+msgid "Log vymazaný."
+msgstr ""
+
+#: includes/Admin/Admin.php:156
+msgid "Aktualizácie skontrolované."
+msgstr ""
+
+#: includes/Admin/Admin.php:167
+msgid "Action Scheduler nie je dostupný, feedy sa nemôžu generovať."
+msgstr ""
+
+#. translators: %d: count
+#: includes/Admin/Admin.php:169
+#, php-format
+msgid "Momentálne mešká %d úloh — cron na serveri asi nebeží."
+msgstr ""
+
+#: includes/Admin/Admin.php:170
+msgid "WP-Cron je vypnutý (DISABLE_WP_CRON)."
+msgstr ""
+
+#: includes/Admin/Admin.php:170
+msgid "Feedy generuje Action Scheduler, ktorý potrebuje cron. Na hostingu musí bežať úloha, ktorá volá wp-cron.php (napr. každých 5 minút)."
+msgstr ""
+
+#. translators: %d: count
+#: includes/Admin/Admin.php:173
+#, php-format
+msgid "Úlohy feedov meškajú (%d). Action Scheduler sa spúšťa pri návštevách webu cez WP-Cron — ak je web bez návštev, nastav cron na serveri."
+msgstr ""
+
+#: includes/Admin/Admin.php:194
+msgid "Na túto akciu nemáš oprávnenie."
+msgstr ""
+
+#. translators: %d: number of feeds
+#: includes/Admin/Admin.php:290
+#, php-format
+msgid "Feedov: %d."
+msgstr ""
+
+#: includes/Admin/Admin.php:292
+msgid "Nenájdené kategórie/štítky:"
+msgstr ""
+
+#. translators: %s: channel name
+#: includes/Admin/Feed_Editor.php:31 includes/Admin/Feed_List.php:32
+#, php-format
+msgid "Nový feed: %s"
+msgstr ""
+
+#. translators: %s: feed name
+#: includes/Admin/Feed_Editor.php:33
+#, php-format
+msgid "Upraviť feed: %s"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:34 includes/Admin/Feed_List.php:95
+msgid "Náhľad a report"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:54
+msgid "Uložiť a vygenerovať"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:56
+msgid "Len uložiť"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:58 includes/Admin/Feed_List.php:117
+msgid "Zrušiť"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:66
+msgid "Základ"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:68
+msgid "Názov feedu"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:74
+msgid "Šablóna (kanál)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:74
+msgid "Zmena šablóny mení hodnoty polí. Po zmene skontroluj náhľad."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:79
+msgid "XML (RSS 2.0) — odporúčané"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:81
+msgid "Formát súboru"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:84
+msgid "Časť názvu súboru. URL feedu dostane aj náhodný token, aby sa nedala uhádnuť."
+msgstr ""
+
+#. translators: %s: URL
+#: includes/Admin/Feed_Editor.php:85
+#, php-format
+msgid "URL: %s — zmena slugu alebo formátu zmení URL."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:86
+msgid "Slug"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:92
+msgid "Pravidelné generovanie"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:92
+msgid "Zmena produktu, ceny alebo skladu navyše spustí generovanie o pár minút."
+msgstr ""
+
+#. translators: %s: country
+#: includes/Admin/Feed_Editor.php:94
+#, php-format
+msgid "Krajina obchodu (%s)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:95
+msgid "Cieľová krajina"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:95
+msgid "Podľa nej sa počíta DPH v cene a krajina v poli shipping."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:97
+msgid "Feed je aktívny (pravidelne sa generuje)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:97
+msgid "Vypnutý feed sa negeneruje, posledný súbor však na URL ostáva, kým feed nevymažeš."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:102
+msgid "Ktoré produkty"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:102
+msgid "Produkty sa čítajú priamo z databázy, takže témy ani pluginy, ktoré menia zoznam produktov (napr. „zobraziť variácie samostatne“), výsledok neovplyvnia."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:104
+msgid "Typy produktov"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:107
+msgid "len s pevnou cenou"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:117
+msgid "Variabilný produkt sám vo feede nie je — sú v ňom jeho variácie (item_group_id = ID rodiča). Skrytý variabilný produkt svoje variácie nevyradí."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:120
+msgid "Zahrnúť vypredané produkty (odporúčané — reklamy sa zastavia samy a párovanie udalostí funguje ďalej)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:123
+msgid "Vynechať skryté produkty (viditeľnosť „skryté“)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:124
+msgid "Vynechať skryté aj „len vo vyhľadávaní“"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:125
+msgid "Zahrnúť aj skryté"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:128
+msgid "Skryté poslať ako archivované (status archived)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:130
+msgid "Produkty skryté z katalógu"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:130
+msgid "Platí pre jednoduché produkty. Variácie skrytého variabilného produktu vo feede ostávajú."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:133
+msgid "Len tieto kategórie"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:133
+msgid "Nič neoznačené = všetky. Podkategórie sa zahrnú automaticky."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:134
+msgid "Vylúčiť kategórie"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:134
+msgid "Vrátane podkategórií."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:135
+msgid "Len tieto štítky"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:135
+msgid "Nič neoznačené = všetky."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:136
+msgid "Vylúčiť štítky"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:139
+msgid "Cena od – do"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:141
+msgid "Porovnáva sa výsledná cena položky (akciová, ak práve platí). Prázdne = bez obmedzenia."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:143
+msgid "Vylúčené ID produktov a variácií"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:143
+msgid "Oddelené čiarkou. Jednotlivé produkty sa dajú vylúčiť aj priamo v produkte (záložka Feedy)."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:149
+msgid "Obsah položiek"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:153
+msgid "Názov variácie = názov produktu + hodnoty atribútov („Demo Classic – Modrá“)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:154
+msgid "Meta vo svojom návode používa pre varianty rovnaký názov; pri dynamických reklamách je názov s farbou zrozumiteľnejší."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:158
+msgid "Zdroj popisu"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:160
+msgid "Vlastný text pre feed → popis variácie → krátky popis → popis produktu"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:161
+msgid "Vlastný text pre feed → popis variácie → popis produktu → krátky popis"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:163
+msgid "Text sa čistí od HTML a shortcodov. Popis stránky postavenej v Elementore sa nepoužije."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:165
+msgid "Predvolená značka"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:165
+msgid "Keď produkt nemá značku (taxonómia Značky alebo atribút). Google ju povoľuje len pri vlastnej výrobe alebo privátnej značke — nie „N/A“ ani „Generic“."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:168
+msgid "Stav tovaru"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:170
+msgid "nový (new)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:171
+msgid "repasovaný (refurbished)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:172
+msgid "použitý (used)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:177
+msgid "Cena"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:179
+msgid "s DPH (Slovensko, EÚ)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:180
+msgid "bez DPH (napr. USA)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:183
+msgid "Najviac ďalších obrázkov"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:183
+msgid "0 = limit platformy (Meta 20)."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:183
+msgid "0 = limit platformy (Google 10)."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:184
+msgid "UTM parametre v odkaze"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:184
+msgid "Voliteľné, napr. utm_source=google&utm_medium=product_feed. Parametre add-to-cart sa nepridávajú nikdy."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:186
+msgid "MPN = vlastné SKU produktu"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:186
+msgid "Len ak ste výrobca (SKU je kód výrobcu). Variácia bez vlastného SKU MPN nedostane."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:187
+msgid "Variácii bez GTIN dať GTIN rodiča"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:187
+msgid "Neodporúčané: Google hlási duplicitný GTIN — každý variant má mať vlastný."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:189
+msgid "Tovar na objednávku (backorder)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:193
+msgid "available for order (na objednávku)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:193
+msgid "backorder s dátumom dostupnosti"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:194
+msgid "in stock (skladom)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:194
+msgid "in_stock (skladom)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:198
+msgid "Počet kusov (quantity_to_sell_on_facebook) sa pri tovare na objednávku neposiela. Ak by Commerce Manager hodnotu „available for order“ odmietol, prepnite na in stock."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:200
+msgid "dostupné o"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:200
+msgid "dní"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:201
+msgid "Google pri backorder a preorder vyžaduje availability_date. Presný dátum sa dá zadať pri produkte."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:207
+msgid "Ostatné atribúty variácie posielať ako additional_variant_attribute"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:207
+msgid "Ostatné atribúty variácie posielať ako variant_option"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:208
+msgid "Atribúty, ktoré nie sú farba, veľkosť, materiál, vzor, pohlavie ani vek (napr. Nosnosť)."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:214
+msgid "Atribúty produktov"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:214
+msgid "„Automaticky“ skúša bežné názvy (napr. farba: pa_color, pa_farba, pa_barva). Hodnota variácie má prednosť pred hodnotou produktu."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:216
+msgid "Značka (brand)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:217
+msgid "Farba (color)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:218
+msgid "Veľkosť (size)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:219
+msgid "Materiál (material)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:220
+msgid "Vzor (pattern)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:221
+msgid "Pohlavie (gender)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:222
+msgid "Veková skupina (age_group)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:225
+msgid "Automaticky"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:226 includes/Catalog/Labels.php:18
+msgid "— nepoužívať —"
+msgstr ""
+
+#. translators: %s: attribute name
+#: includes/Admin/Feed_Editor.php:235
+#, php-format
+msgid "Vlastný atribút produktu: %s"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:246 includes/Admin/Feed_Editor.php:252
+msgid "— nevyplniť —"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:247
+msgid "ženy (female)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:248
+msgid "muži (male)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:249 includes/Admin/Product_Panel.php:187
+msgid "unisex"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:253
+msgid "novorodenci (newborn, do 3 mesiacov)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:254
+msgid "dojčatá (infant, 3–12 mesiacov)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:255
+msgid "batoľatá (toddler, 1–5 rokov)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:256
+msgid "deti (kids, 5–13 rokov)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:257
+msgid "dospelí (adult)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:260
+msgid "tínedžeri (teen, len Meta)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:261
+msgid "všetky veky (all ages, len Meta)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:263
+msgid "Predvolené pohlavie"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:263
+msgid "Keď ho produkt nemá ani v atribúte, ani v záložke Feedy."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:264
+msgid "Predvolená veková skupina"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:271
+msgid "Kategórie"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:272
+msgid "product_type sa tvorí z cesty kategórie (primárna kategória z Yoastu má prednosť). Google kategóriu priraď kategórii — platí aj pre jej podkategórie."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:275
+msgid "Predvolená Google kategória"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:279
+msgid "Predvolená Facebook kategória (ID)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:279
+msgid "Voliteľné. ID zo zoznamu facebook.com/products/categories/sk_SK.txt."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:284
+msgid "Obchod nemá žiadne kategórie."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:292
+msgid "Kategória obchodu"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:292 includes/Admin/Product_Panel.php:173
+msgid "Google kategória"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:294
+msgid "Facebook kategória (ID)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:311
+msgid "Vlastné štítky (custom_label_0–4)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:311
+msgid "Na delenie produktov v kampaniach. Hodnota zadaná pri produkte má prednosť. Max. 100 znakov."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:319
+msgid "parameter"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:326
+msgid "Meta"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:327
+msgid "Posielať quantity_to_sell_on_facebook (pri produktoch so sledovaným skladom)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:327
+msgid "Používa ho len obchod na Facebooku/Instagrame s nákupom priamo na platforme."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:330
+msgid "internal_label"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:332
+msgid "— neposielať —"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:333
+msgid "štítky produktu (tag_…)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:334
+msgid "kategórie produktu (cat_…)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:335
+msgid "kategórie aj štítky"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:337
+msgid "Meta ich odporúča na produktové sady (ich zmena nespúšťa kontrolu reklám)."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:343
+msgid "Doprava (voliteľné)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:343
+msgid "Dopravu je lepšie nastaviť v Merchant Center a v Commerce Manageri. Pole shipping sa pošle, len ak vyplníš cenu."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:344
+msgid "Cena dopravy"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:344
+msgid "S DPH, napr. 3.90. Prázdne = bez poľa shipping."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:345
+msgid "Názov služby"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:345
+msgid "Napr. Kuriér. Voliteľné."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:346
+msgid "Posielať hmotnosť (shipping_weight)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:351
+msgid "Pokročilé"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:354
+msgid "Vlastná šablóna ID pre tento feed"
+msgstr ""
+
+#. translators: %s: template
+#: includes/Admin/Feed_Editor.php:357
+#, php-format
+msgid "Prázdne = spoločná šablóna %s (rovnaké ID posiela aj meranie). Vyplň len pre katalóg so starými ID, napr. wc_{id} — meranie potom s týmto feedom nesedí. Premenné: {id}, {sku}, {parent_id}, {parent_sku}."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:361
+#, php-format
+msgid "Poistka pri poklese položiek (%)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:361
+msgid "Ak má nový súbor o toľko percent menej položiek ako predchádzajúci, nezverejní sa a počká na potvrdenie (Meta by chýbajúce produkty z katalógu zmazala). 0 = vypnuté."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:363
+msgid "Vytvoriť novú URL? Stará prestane fungovať po najbližšom generovaní a treba ju vymeniť v Merchant Center / Commerce Manageri."
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:363
+msgid "Zmeniť URL (nový token)"
+msgstr ""
+
+#: includes/Admin/Feed_Editor.php:447
+msgid "Žiadne."
+msgstr ""
+
+#: includes/Admin/Feed_List.php:19
+#, php-format
+msgid "Pridať: %s"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:25
+msgid "Zatiaľ tu nie je žiadny feed"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:26
+msgid "Feed sa generuje na pozadí do statického súboru. Jeho URL vložíš do Google Merchant Center alebo do Commerce Managera (Meta) ako plánovaný zdroj údajov."
+msgstr ""
+
+#: includes/Admin/Feed_List.php:41
+msgid "Feed"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:41
+msgid "URL pre Google / Meta"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:41
+msgid "Posledný súbor"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:41 includes/Admin/Feed_Report.php:35
+msgid "Stav"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:41
+msgid "Akcie"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:60
+msgid "vypnutý"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:66
+msgid "Kopírovať"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:68
+msgid "Súbor ešte nie je vygenerovaný."
+msgstr ""
+
+#. translators: 1: items, 2: file size
+#: includes/Admin/Feed_List.php:77
+#, php-format
+msgid "%1$d položiek · %2$s"
+msgstr ""
+
+#. translators: %d: count
+#: includes/Admin/Feed_List.php:81
+#, php-format
+msgid "vynechaných: %d"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:94 includes/Admin/Feed_Report.php:29
+msgid "Pregenerovať teraz"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:96
+msgid "Upraviť"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:98
+msgid "Duplikovať"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:99
+msgid "Vymazať feed aj jeho súbor? URL prestane fungovať."
+msgstr ""
+
+#: includes/Admin/Feed_List.php:99
+msgid "Vymazať"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:104
+msgid "Súbory sú statické — webserver ich posiela bez PHP a bez page cache. Po zmene produktu, ceny alebo skladu sa feed pregeneruje o pár minút, inak podľa plánu."
+msgstr ""
+
+#: includes/Admin/Feed_List.php:107 includes/Admin/Feed_Report.php:82
+msgid "Generuje sa… stránka sa obnoví po dokončení."
+msgstr ""
+
+#. translators: 1: items so far, 2: batches
+#: includes/Admin/Feed_List.php:116
+msgid "Generuje sa"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:116
+#, php-format
+msgid "%1$d položiek, dávka %2$d"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:120
+msgid "Posledný beh zlyhal"
+msgstr ""
+
+#. translators: 1: new count, 2: previous count
+#: includes/Admin/Feed_List.php:125
+msgid "Čaká na potvrdenie"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:125
+#, php-format
+msgid "Nový súbor: %1$d položiek (predtým %2$d)."
+msgstr ""
+
+#: includes/Admin/Feed_List.php:126
+msgid "Zverejniť"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:127
+msgid "Zahodiť"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:131
+msgid "Vypnutý"
+msgstr ""
+
+#: includes/Admin/Feed_List.php:132
+msgid "Aktívny"
+msgstr ""
+
+#. translators: %s: time
+#: includes/Admin/Feed_List.php:141
+#, php-format
+msgid "ďalšie: %s"
+msgstr ""
+
+#. translators: %s: human time difference
+#: includes/Admin/Feed_List.php:148
+#, php-format
+msgid "pred %s"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:30
+msgid "Upraviť nastavenia"
+msgstr ""
+
+#. translators: %s: feed name
+#: includes/Admin/Feed_Report.php:32
+#, php-format
+msgid "Report: %s"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:39
+msgid "Kopírovať URL"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:41
+msgid "Otvoriť súbor"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:49
+msgid "Položiek vo feede"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:50
+msgid "z toho jednoduchých"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:51
+msgid "z toho variácií"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:52
+msgid "vypredaných (ostávajú)"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:53
+msgid "Vynechaných"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:54
+msgid "Produktov prejdených"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:55
+msgid "z toho variabilných"
+msgstr ""
+
+#. translators: 1: time, 2: trigger, 3: duration, 4: size, 5: batches
+#: includes/Admin/Feed_Report.php:63
+#, php-format
+msgid "Zverejnené %1$s (%2$s), trvanie %3$d s, veľkosť %4$s, dávok %5$d."
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:73
+msgid "Súbor ešte nebol vygenerovaný. Generovanie beží na pozadí cez Action Scheduler — zvyčajne do minúty."
+msgstr ""
+
+#. translators: 1: time, 2: error
+#: includes/Admin/Feed_Report.php:77
+#, php-format
+msgid "Posledná chyba (%1$s): %2$s"
+msgstr ""
+
+#. translators: 1: products, 2: types, 3: variations
+#: includes/Admin/Feed_Report.php:106
+#, php-format
+msgid "Podľa databázy: %1$d publikovaných produktov (%2$s) a %3$d publikovaných variácií. Položky + vynechané = jednoduché produkty + variácie."
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:115
+msgid "Vynechané produkty"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:117
+msgid "Nič nebolo vynechané."
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:128
+msgid "Validácia položiek"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:130
+msgid "Bez nálezov."
+msgstr ""
+
+#. translators: %s: link to the feed settings
+#: includes/Admin/Feed_Report.php:154
+#, php-format
+msgid "Tip: ak predávate vlastnú značku, nastavte ju ako predvolenú v %s. Dostanú ju produkty aj variácie bez značky."
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:155
+msgid "nastaveniach feedu"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:159
+msgid "Chyby: položku platforma pravdepodobne odmietne. Upozornenia: položka prejde, ale oplatí sa ju opraviť. Informácie: na vedomie."
+msgstr ""
+
+#. translators: 1: variation title, 2: variation ID
+#: includes/Admin/Feed_Report.php:182
+#, php-format
+msgid "%1$s (variácia #%2$d)"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:184
+msgid "(bez názvu)"
+msgstr ""
+
+#. translators: %d: count
+#: includes/Admin/Feed_Report.php:194
+#, php-format
+msgid "…a ďalších %d"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:203
+msgid "Náhľad položiek"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:205
+msgid "Počet položiek"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:206
+msgid "Zo zverejneného súboru"
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:207
+msgid "Ukážka z aktuálnych nastavení"
+msgstr ""
+
+#. translators: 1: items, 2: scanned products
+#: includes/Admin/Feed_Report.php:213
+#, php-format
+msgid "Ukážka: %1$d položiek z prvých %2$d produktov, s aktuálnymi nastaveniami (nič sa neuložilo)."
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:218
+msgid "Zverejnený súbor zatiaľ neexistuje."
+msgstr ""
+
+#: includes/Admin/Feed_Report.php:254
+msgid "Log feedu"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:53
+msgid "ID vo feede"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:55
+msgid "— variabilný produkt nie je samostatná položka; toto ID nesú jeho variácie ako item_group_id."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:56
+msgid "— rovnaké ID posiela meranie."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:71
+msgid "Feedy (Google, Meta)"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:91
+msgid "Vylúčiť zo všetkých feedov"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:92
+msgid "Len táto variácia."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:92
+msgid "Pri variabilnom produkte aj všetky jeho variácie."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:102
+msgid "Vylúčiť z feedov"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:120
+msgid "Názov pre feed"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:123
+msgid "Prázdne = názov produktu + hodnoty atribútov."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:123
+msgid "Prázdne = názov produktu. Google zobrazí najviac 150 znakov."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:131
+msgid "Popis pre feed"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:135
+msgid "Čistý text. Prázdne = popis variácie, krátky popis alebo popis produktu."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:143
+msgid "GTIN pre feed"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:146
+msgid "EAN/UPC s kontrolnou číslicou. Prázdne = pole GTIN, UPC, EAN alebo ISBN zo záložky Sklad."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:154
+msgid "MPN (kód výrobcu)"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:157
+msgid "Prázdne = vlastné SKU, ak to feed dovoľuje."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:165
+msgid "Značka pre feed"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:168
+msgid "Prázdne = značka produktu, atribút značky alebo predvolená značka feedu."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:181
+msgid "Pohlavie"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:184 includes/Admin/Product_Panel.php:199
+msgid "— podľa feedu —"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:185
+msgid "ženy"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:186
+msgid "muži"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:196
+msgid "Veková skupina"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:200
+msgid "novorodenci"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:201
+msgid "dojčatá"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:202
+msgid "batoľatá"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:203
+msgid "deti"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:204
+msgid "dospelí"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:213
+msgid "Dostupnosť vo feede"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:216
+msgid "— podľa skladu —"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:217
+msgid "skladom"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:218
+msgid "vypredané"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:219
+msgid "predobjednávka"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:220
+msgid "na objednávku"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:223
+msgid "Pri predobjednávke a tovare na objednávku vyplň aj dátum — Google ho vyžaduje."
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:231
+msgid "Dostupné od"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:246
+msgid "podľa pravidla feedu"
+msgstr ""
+
+#. translators: %s: GTIN
+#: includes/Admin/Product_Panel.php:297
+#, php-format
+msgid "Produktové feedy: GTIN %s nemá platnú kontrolnú číslicu, neuložil som ho."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:17
+msgid "Produktové feedy — nastavenia"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:24
+msgid "ID položiek"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:25
+msgid "Rovnaké ID musí posielať meranie (Meta pixel / Conversions API, GA4). Plugin nowera-capi ho berie z funkcie nwr_pf_item_id(), takže sa nerozídu. Jednoduchý produkt má svoje ID, variácia svoje, variabilný produkt je skupina (item_group_id)."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:27
+msgid "Šablóna ID"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:29
+msgid "Predvolene {id}. Premenné: {id} (ID produktu alebo variácie), {sku} (vlastné SKU, inak ID), {parent_id}, {parent_sku}. Text okolo sa zachová, napr. wc_{id}. Zmena pregeneruje všetky feedy a Meta/Google uvidia nové produkty — meň len vedome."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:33
+msgid "Generovanie"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:34
+msgid "Oneskorenie po zmene produktu"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:34
+msgid "min"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:34
+msgid "Zmeny počas tejto doby sa spoja do jedného generovania (odporúčané 5–15 min)."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:35
+msgid "Produktov v jednej dávke"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:35
+msgid "Na pomalom serveri sa dávka zmenší sama."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:36
+msgid "Záznamov v logu"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:39
+msgid "Aktualizácie"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:42
+msgid "Hľadať nové verzie v GitHub Releases"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:44
+msgid "Repozitár"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:44
+msgid "vlastník/repozitár; release musí mať priložený nwr-product-feeds-<verzia>.zip."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:46
+msgid "nezistená"
+msgstr ""
+
+#. translators: 1: installed version, 2: latest version
+#: includes/Admin/Settings_Page.php:48
+#, php-format
+msgid "Nainštalovaná verzia %1$s, posledná známa %2$s."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:48
+msgid "Skontrolovať teraz"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:51
+msgid "Uložiť nastavenia"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:56
+msgid "Log"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:58
+msgid "Vymazať celý log?"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:58
+msgid "Vymazať log"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:58
+msgid "Chyby sa zapisujú aj do WooCommerce → Stav → Logy (zdroj nwr-product-feeds)."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:63
+msgid "Export a import nastavení"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:64
+msgid "JSON so všetkými feedmi a nastaveniami na prenos do iného obchodu. Kategórie a štítky sa na cieľovom webe spárujú podľa slugu, URL tokeny sa neprenášajú."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:65
+msgid "Stiahnuť export (JSON)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:71
+msgid "…alebo sem vlož obsah JSON"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:72
+msgid "Importovať aj nastavenia pluginu (šablóna ID, generovanie)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:73
+msgid "Najprv vymazať existujúce feedy (ich URL prestanú fungovať)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:74
+msgid "Importovať"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:82
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:83
+msgid "PHP"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:83
+msgid "chýba XMLReader (kontrola súboru je zjednodušená)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:84
+msgid "Mena a krajina"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:84
+msgid "ceny zadané s DPH"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:84
+msgid "ceny zadané bez DPH"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:85
+msgid "Action Scheduler"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:85
+msgid "dostupný"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:85
+msgid "NEDOSTUPNÝ"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:86
+msgid "WP-Cron"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:86
+msgid "vypnutý (DISABLE_WP_CRON) — musí bežať cron na serveri"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:86
+msgid "zapnutý"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:87
+msgid "Meškajúce úlohy feedov"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:88
+msgid "Priečinok feedov"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:88
+msgid "zapisovateľný, chránený index.php a .htaccess"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:89
+msgid "Webserver"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:89
+msgid ".htaccess sa neuplatní; výpis priečinka vypína nginx predvolene (autoindex off)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:90
+msgid "Feedov"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:91
+msgid "WooCommerce Multistore"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:91
+msgid "aktívny — meta _nwr_pf_* sa medzi obchodmi nekopírujú (poistka v plugine)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:91
+msgid "nie"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:93
+msgid "Prostredie"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:114
+msgid "Log je prázdny."
+msgstr ""
+
+#: includes/Admin/Taxonomy.php:86
+msgid "Hľadať kategóriu Google…"
+msgstr ""
+
+#: includes/Admin/Taxonomy.php:98
+msgid "Taxonómiu Google sa nepodarilo stiahnuť."
+msgstr ""
+
+#: includes/Admin/Texts.php:13
+msgid "Nepublikovaný"
+msgstr ""
+
+#: includes/Admin/Texts.php:14
+msgid "Chránený heslom"
+msgstr ""
+
+#: includes/Admin/Texts.php:15
+msgid "Skrytý z katalógu"
+msgstr ""
+
+#: includes/Admin/Texts.php:16
+msgid "Typ produktu nie je vo feede povolený"
+msgstr ""
+
+#: includes/Admin/Texts.php:17
+msgid "Bez ceny"
+msgstr ""
+
+#: includes/Admin/Texts.php:18
+msgid "Bez obrázka"
+msgstr ""
+
+#: includes/Admin/Texts.php:19
+msgid "Vylúčený v nastaveniach produktu"
+msgstr ""
+
+#: includes/Admin/Texts.php:20
+msgid "Filter feedu: kategória"
+msgstr ""
+
+#: includes/Admin/Texts.php:21
+msgid "Filter feedu: štítok"
+msgstr ""
+
+#: includes/Admin/Texts.php:22
+msgid "Filter feedu: vypredané"
+msgstr ""
+
+#: includes/Admin/Texts.php:23
+msgid "Filter feedu: cena"
+msgstr ""
+
+#: includes/Admin/Texts.php:24
+msgid "Filter feedu: vylúčené ID"
+msgstr ""
+
+#: includes/Admin/Texts.php:25
+msgid "Variácia je vypnutá"
+msgstr ""
+
+#: includes/Admin/Texts.php:26
+msgid "Variabilný produkt bez variácií"
+msgstr ""
+
+#: includes/Admin/Texts.php:27
+msgid "Cena sa počíta až z výberu zákazníka (nie je pevná)"
+msgstr ""
+
+#: includes/Admin/Texts.php:28
+msgid "Duplicitné ID položky"
+msgstr ""
+
+#: includes/Admin/Texts.php:29
+msgid "Produkt sa nepodarilo načítať"
+msgstr ""
+
+#: includes/Admin/Texts.php:30
+msgid "Vynechaný filtrom nwr_pf_skip_item"
+msgstr ""
+
+#: includes/Admin/Texts.php:38
+msgid "Obrázok nie je JPEG ani PNG — Meta v špecifikácii uvádza len tieto; ak Commerce Manager hlási chybu obrázka, nahraď ho"
+msgstr ""
+
+#: includes/Admin/Texts.php:39
+msgid "ID je dlhšie, ako platforma dovoľuje"
+msgstr ""
+
+#: includes/Admin/Texts.php:40
+msgid "Chýba značka, GTIN aj MPN — Meta hlási „Brand or universal ID is missing“"
+msgstr ""
+
+#: includes/Admin/Texts.php:41
+msgid "Chýba značka"
+msgstr ""
+
+#: includes/Admin/Texts.php:42
+msgid "Neplatný GTIN — do feedu nešiel"
+msgstr ""
+
+#: includes/Admin/Texts.php:43
+msgid "Chýba popis (použitý názov)"
+msgstr ""
+
+#: includes/Admin/Texts.php:44
+msgid "Popis kratší ako 30 znakov (Meta)"
+msgstr ""
+
+#: includes/Admin/Texts.php:45
+msgid "Názov skrátený na limit platformy"
+msgstr ""
+
+#: includes/Admin/Texts.php:46
+msgid "Popis skrátený na limit platformy"
+msgstr ""
+
+#: includes/Admin/Texts.php:47
+msgid "Variácia má atribút „ľubovoľná hodnota“"
+msgstr ""
+
+#: includes/Admin/Texts.php:48
+msgid "Variácia preberá GTIN rodiča (Google hlási duplicitný GTIN)"
+msgstr ""
+
+#: includes/Admin/Texts.php:49
+msgid "Popis je z Elementora a nepoužil sa — doplň krátky popis"
+msgstr ""
+
+#: includes/Admin/Texts.php:50
+msgid "Dátum dostupnosti odhadnutý z nastavenia feedu"
+msgstr ""
+
+#: includes/Admin/Texts.php:51
+msgid "Značka z nastavenia feedu (produkt ani rodič ju nemá)"
+msgstr ""
+
+#: includes/Admin/Texts.php:52
+msgid "Bez GTIN (EAN)"
+msgstr ""
+
+#: includes/Admin/Texts.php:53
+msgid "Bez Google kategórie"
+msgstr ""
+
+#: includes/Admin/Texts.php:54
+msgid "Variácia bez vlastného obrázka (použitý obrázok rodiča)"
+msgstr ""
+
+#: includes/Admin/Texts.php:61
+msgid "plán"
+msgstr ""
+
+#: includes/Admin/Texts.php:62
+msgid "zmena produktov"
+msgstr ""
+
+#: includes/Admin/Texts.php:63
+msgid "ručne"
+msgstr ""
+
+#: includes/Admin/Texts.php:64
+msgid "zmena počas generovania"
+msgstr ""
+
+#. translators: %d: minutes
+#: includes/Admin/Texts.php:72
+#, php-format
+msgid "každých %d min"
+msgstr ""
+
+#. translators: %d: minutes
+#: includes/Admin/Texts.php:75
+msgid "každú hodinu"
+msgstr ""
+
+#: includes/Admin/Texts.php:78
+msgid "raz denne"
+msgstr ""
+
+#. translators: %d: hours
+#: includes/Admin/Texts.php:81
+#, php-format
+msgid "každých %d h"
+msgstr ""
+
+#. translators: %d: number of variations
+#: includes/Catalog/Item_Builder.php:160
+#, php-format
+msgid "(variácií: %d)"
+msgstr ""
+
+#. translators: 1: item ID, 2: product ID
+#: includes/Catalog/Item_Builder.php:303
+#, php-format
+msgid "%1$s už má produkt #%2$d"
+msgstr ""
+
+#: includes/Catalog/Labels.php:19
+msgid "Kategória — najvyššia úroveň"
+msgstr ""
+
+#: includes/Catalog/Labels.php:20
+msgid "Kategória — primárna (alebo najhlbšia)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:21
+msgid "Kategória — celá cesta"
+msgstr ""
+
+#: includes/Catalog/Labels.php:22
+msgid "Štítok produktu (parameter: slugy štítkov oddelené čiarkou, voliteľné)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:23
+msgid "Akcia áno/nie (parameter: text-áno|text-nie)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:24
+msgid "Cenové pásmo (parameter: hranice, napr. 15,25,50)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:25
+msgid "Skladom/vypredané (parameter: text-áno|text-nie)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:26
+msgid "Značka"
+msgstr ""
+
+#: includes/Catalog/Labels.php:27
+msgid "Atribút (parameter: napr. pa_nosnost)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:28
+msgid "Ostatné atribúty variácie („Nosnosť: 10 kg“)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:29
+msgid "Vlastné pole (parameter: meta kľúč)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:30
+msgid "Typ položky (simple, variation…)"
+msgstr ""
+
+#: includes/Catalog/Labels.php:31
+msgid "Pevný text (parameter: text)"
+msgstr ""
+
+#: includes/Catalog/Product_Types.php:84
+msgid "Variabilný produkt (vo feede jeho variácie)"
+msgstr ""
+
+#: includes/Catalog/Product_Types.php:119
+msgid "Darčeková karta"
+msgstr ""
+
+#: includes/Channels/Google.php:22 includes/Channels/Google.php:31
+msgid "Google Merchant Center"
+msgstr ""
+
+#: includes/Channels/Google.php:26
+msgid "Google Shopping, Performance Max a bezplatné záznamy."
+msgstr ""
+
+#: includes/Channels/Meta.php:32 includes/Channels/Meta.php:41
+msgid "Meta katalóg"
+msgstr ""
+
+#: includes/Channels/Meta.php:36
+msgid "Facebook a Instagram — dynamické reklamy, Advantage+ katalógové reklamy, obchod."
+msgstr ""
+
+#. translators: %s: feed name
+#: includes/Feeds.php:176
+#, php-format
+msgid "%s (kópia)"
+msgstr ""
+
+#: includes/Feeds.php:217
+msgid "Produktový feed"
+msgstr ""
+
+#: includes/Plugin.php:79
+msgid "Produktové feedy potrebujú aktívny WooCommerce."
+msgstr ""
+
+#: includes/Transfer.php:42
+msgid "Súbor nie je export z pluginu Produktové feedy."
+msgstr ""
+
+#: includes/Updater.php:74
+msgid "Produktové feedy z WooCommerce pre Google Merchant Center a Meta katalóg."
+msgstr ""

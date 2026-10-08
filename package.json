@@ -1,0 +1,14 @@
+{
+  "name": "nwr-product-feeds",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "WooCommerce product feeds for Google Merchant Center and Meta (WordPress plugin, tests and build tools)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tools/build.sh",
+    "pot": "node tools/make-pot.mjs",
+    "test:wp": "node --test tests/playground/feeds.test.mjs",
+    "test:wp:perf": "NWR_PF_PERF=1 node --test tests/playground/feeds.test.mjs"
+  }
+}

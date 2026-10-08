@@ -1,0 +1,23 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"features": { "networking": true },
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" },
+			"options": { "activate": true }
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/nwr-pf-test.php",
+			"data": "<?php\n// Test-only helpers for nwr-product-feeds (Playground). Never deploy.\nif ( is_readable( '/wordpress/nwr-tests/mu-helpers.php' ) ) {\n\trequire '/wordpress/nwr-tests/mu-helpers.php';\n}\n"
+		},
+		{ "step": "activatePlugin", "pluginPath": "nwr-product-feeds/nwr-product-feeds.php" },
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/wp-load.php'; delete_transient( '_wc_activation_redirect' ); update_option( 'woocommerce_onboarding_profile', array( 'skipped' => true ) ); update_option( 'woocommerce_currency', 'EUR' ); update_option( 'woocommerce_default_country', 'SK' ); update_option( 'woocommerce_calc_taxes', 'yes' ); update_option( 'woocommerce_prices_include_tax', 'yes' ); update_option( 'woocommerce_tax_based_on', 'shipping' ); update_option( 'woocommerce_default_customer_address', 'base' ); update_option( 'timezone_string', 'Europe/Bratislava' ); update_option( 'permalink_structure', '' ); update_option( 'woocommerce_coming_soon', 'no' );"
+		}
+	]
+}

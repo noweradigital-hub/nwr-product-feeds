@@ -1,0 +1,35 @@
+# Tag vX.Y.Z → GitHub release with nwr-product-feeds-X.Y.Z.zip attached.
+# The plugin's updater (includes/Updater.php) installs that asset on the shops.
+name: release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check version matches tag
+        run: |
+          VERSION=$(sed -n "s/^const VERSION *= *'\(.*\)';/\1/p" plugin/nwr-product-feeds/nwr-product-feeds.php)
+          test "v$VERSION" = "$GITHUB_REF_NAME"
+      - name: Lint
+        run: find plugin -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: Build zip
+        run: |
+          node tools/make-pot.mjs
+          VERSION=${GITHUB_REF_NAME#v}
+          mkdir -p dist
+          (cd plugin && zip -rqX "../dist/nwr-product-feeds-$VERSION.zip" nwr-product-feeds -x '*.DS_Store')
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
