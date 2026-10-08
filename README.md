@@ -113,3 +113,6 @@ Aktualizácie na weboch: hlavička `Update URI: https://github.com/noweradigital
 - Na nginx sa `.htaccess` neuplatní (výpis priečinka je tam predvolene vypnutý).
 - Presmerovanie starých URL z verzie 1.0.0 beží, len kým feed existuje a má súbor; URL v GMC/Meta treba aj tak prepísať.
 - Odinštalovanie zmaže nastavenia, stav, log a súbory feedov; meta produktov `_nwr_pf_*` len s `define( 'NWR_PF_REMOVE_ALL_DATA', true )`.
+
+## Licencia
+GPL-2.0-or-later, plné znenie v [LICENSE](LICENSE).
